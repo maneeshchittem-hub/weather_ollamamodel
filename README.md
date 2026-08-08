@@ -36,16 +36,16 @@ Make sure you have installed:
 
 ### 1. Clone the repository
 
-#```bash
+``bash
 git clone https://github.com/maneeshchittem-hub/weather_ollamamodel.git
-2. Open the project folder
+### 2. Open the project folder
 cd weather_ollamamodel
-3. Create a virtual environment
+### 3. Create a virtual environment
 python -m venv myenv
-4. Activate the virtual environment
+### 4. Activate the virtual environment
 Windows:
 myenv\Scripts\activate
-5. Install required Python packages
+### 5. Install required Python packages
 pip install streamlit requests ollama
 🤖 Ollama Setup
 Install Ollama on your computer.
@@ -53,7 +53,7 @@ Then download the required AI model:
 ollama pull llama3.2
 Start Ollama:
 ollama serve
-🔑 OpenWeatherMap API
+### 🔑 OpenWeatherMap API
 Create an account on OpenWeatherMap and get your API key.
 Add your API key to the Python application.
 ⚠️ Do not upload your API key publicly to GitHub.
