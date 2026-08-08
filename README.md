@@ -47,35 +47,40 @@ Windows:
 myenv\Scripts\activate
 ### 5. Install required Python packages
 pip install streamlit requests ollama
-🤖 Ollama Setup
+## 🤖 Ollama Setup
 Install Ollama on your computer.
 Then download the required AI model:
 ollama pull llama3.2
 Start Ollama:
 ollama serve
-### 🔑 OpenWeatherMap API
+## 🔑 OpenWeatherMap API
 Create an account on OpenWeatherMap and get your API key.
 Add your API key to the Python application.
 ⚠️ Do not upload your API key publicly to GitHub.
-▶️ Run the Application
+## ▶️ Run the Application
 Run:
 streamlit run weather.py
 The application will open in your browser.
-📁 Project Structure
+## 📁 Project Structure
 weather_ollamamodel/
 │
 ├── weather.py
 ├── README.md
 └── ...
-🖥️ How It Works
+## 🖥️ How It Works
 Enter a city name.
 Click Get Weather & Precautions.
 The application gets weather information from OpenWeatherMap.
 Ollama analyzes the weather information.
 The application displays weather precautions and recommendations.
-🔮 Future Improvements
-👨‍💻 Author
-Maneesh Chittem
+## 🔮 Future Improvements
+-5-day weather forcast
+-weather maps
+-voice assistant
+-multiple Ai models
+-weather alerts
+## 👨‍💻 Author
+**Maneesh Chittem**
 GitHub: maneeshchittem-hub
-⭐ Support
+## ⭐ Support
 If you like this project, give the repository a ⭐ on GitHub!
